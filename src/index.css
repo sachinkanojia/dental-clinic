@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+  .icon-fill {
+    font-variation-settings: 'FILL' 1;
+  }
+}
+
+@layer utilities {
+  .shadow-ambient-1 { box-shadow: 0 4px 20px rgba(15, 76, 129, 0.04); }
+  .shadow-ambient-2 { box-shadow: 0 10px 30px rgba(15, 76, 129, 0.08); }
+  .text-primary-blue { color: #0F4C81; }
+  .bg-primary-blue { background-color: #0F4C81; }
+  .border-primary-blue { border-color: #0F4C81; }
+  .text-secondary-blue { color: #21759B; }
+  .border-secondary-blue { border-color: #21759B; }
+  .bg-secondary-blue { background-color: #21759B; }
+  .text-soft-teal { color: #84d5cd; }
+  .border-soft-teal { border-color: #84d5cd; }
+  .bg-soft-teal { background-color: #84d5cd; }
+  .trust-badge-gradient { background: linear-gradient(135deg, #00658a 0%, #004c69 100%); }
+  .star-rating {
+    font-variation-settings: 'FILL' 1;
+    color: #f59e0b;
+  }
+  .bg-gradient-hero {
+    background: linear-gradient(135deg, rgba(245, 250, 255, 1) 0%, rgba(227, 233, 239, 1) 100%);
+  }
+}
