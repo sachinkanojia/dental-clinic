@@ -16,7 +16,6 @@ export default function Header() {
     <header className="fixed top-0 w-full z-50 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md shadow-sm dark:shadow-none border-b border-slate-100 dark:border-slate-800 transition-all duration-300">
       <div className="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
         <div className="flex items-center gap-2">
-          <span className="material-symbols-outlined text-primary-container text-3xl" style={{ fontVariationSettings: '\'FILL\' 1' }}>dentistry</span>
           <span className="text-xl font-bold tracking-tight text-[#0F4C81] dark:text-white">Dental Clinic</span>
         </div>
         <nav className="hidden md:flex items-center gap-8 font-manrope font-medium text-sm tracking-wide">
