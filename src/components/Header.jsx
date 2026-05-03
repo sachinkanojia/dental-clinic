@@ -7,7 +7,7 @@ export default function Header() {
   const currentPath = location.pathname;
 
   const getLinkClass = (path) => {
-    return currentPath === path 
+    return currentPath === path
       ? "text-[#0F4C81] dark:text-blue-400 font-bold border-b-2 border-[#0F4C81] pb-1 hover:opacity-80 transition-opacity"
       : "text-slate-600 dark:text-slate-400 hover:text-[#0F4C81] transition-colors hover:opacity-80 transition-opacity";
   };
@@ -16,8 +16,8 @@ export default function Header() {
     <header className="fixed top-0 w-full z-50 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md shadow-sm dark:shadow-none border-b border-slate-100 dark:border-slate-800 transition-all duration-300">
       <div className="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
         <div className="flex items-center gap-2">
-          <span className="material-symbols-outlined text-primary-container text-3xl" style={{fontVariationSettings: '\'FILL\' 1'}}>dentistry</span>
-          <span className="text-xl font-bold tracking-tight text-[#0F4C81] dark:text-white">Mile Dental Clinic</span>
+          <span className="material-symbols-outlined text-primary-container text-3xl" style={{ fontVariationSettings: '\'FILL\' 1' }}>dentistry</span>
+          <span className="text-xl font-bold tracking-tight text-[#0F4C81] dark:text-white">Dental Clinic</span>
         </div>
         <nav className="hidden md:flex items-center gap-8 font-manrope font-medium text-sm tracking-wide">
           <Link className={getLinkClass('/')} to="/">Home</Link>
